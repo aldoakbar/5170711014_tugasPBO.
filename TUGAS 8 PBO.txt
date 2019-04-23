@@ -1,0 +1,85 @@
+CLASS UTAMA
+package pbo;
+import java.util.Scanner;
+public class Pbo {
+    public static void main(String[] args) {
+      Orang tan = new Orang();
+      Orang wah = new Orangwah();
+      tan.identitas();
+      tan.ciriciri();
+      wah.identitas();
+      wah.ciriciri();
+      
+    }
+    
+}
+
+CLASS MANUSIA
+package pbo;
+import java.util.Scanner;
+public class manusia {
+    Scanner mns = new Scanner(System.in);
+
+    String Nama, Alamat, ttl,Bahasa,Kesenian;
+    void identitas(){
+        System.out.print("Nama :   ");
+        Nama = mns.next();
+        System.out.print("Alamat :   ");
+        Alamat = mns.next();
+        System.out.print("Temapt Tanggal Lahir :   ");
+        ttl = mns.next();
+    }
+    protected void ciriciri(){
+        System.out.print(" Bahasa  : ");
+        Bahasa = mns.next();
+        System.out.print("Kesenian  :  ");
+        Kesenian = mns.next();
+}
+}
+
+CLASS PEWARISAN 1
+package pbo;
+import java.util.Scanner;
+public class Orang extends manusia{
+    String negara;
+
+    void identitas() {
+        System.out.print("Nama :   ");
+        Nama = mns.next();
+        System.out.print("Alamat :   ");
+        Alamat = mns.next();
+        System.out.print("Temapt Tanggal Lahir  :   ");
+        ttl = mns.next();
+    }
+
+    protected void ciriciri() {
+        System.out.print("Bahasa  : ");
+        Bahasa = mns.next();
+        System.out.print("\nKesenian  :  ");
+        Kesenian = mns.next();
+    }
+}
+
+CLASS PEWARISAN 2
+package pbo;
+import java.util.Scanner;
+public class Orangwah extends manusia {
+    Scanner mas = new Scanner(System.in);
+    String jawa;
+
+    void identitas(){
+        System.out.print("Nama :   ");
+        Nama = mns.next();
+        System.out.print("Alamat :   ");
+        Alamat = mns.next();
+        System.out.print("Temapt Tanggal Lahir :   ");
+        ttl = ns.next();
+    }
+     protected void ciriciri(){
+        System.out.print(" Bahasa  : ");
+        Bahasa = mns.next();
+        System.out.print("\nKesenian  :  ");
+        Kesenian = mns.next();
+        
+     }
+}

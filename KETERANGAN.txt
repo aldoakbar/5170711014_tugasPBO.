@@ -1,0 +1,4 @@
+program ini menggunakan pewarisan, metode overriding, dan access protected
+dari class manusia di wariskan kepada class OrangSunda dan OrangJawa dan pada class manusia terdapat metod identitas dan ciriciri.
+pada method identitas menggunakan void dan pada method ciriciri menggunakan method protected void.
+setelah program di jalankan maka akan menampilkan identitas untuk di isi yaitu nama, tempat tanggal lahir, alamat, bahasa, dan juga kesenian.setelah itu di isi maka akan menampilkan kebali data yang sama untuk di isi kemudian selesai.
